@@ -163,6 +163,7 @@ section .header {
   position: relative;
   background-color: #191437;
   min-height: 320px;
+  min-width: 300px;
   padding: 1rem;
   border: 2px solid transparent;
   border-radius: 15px;
