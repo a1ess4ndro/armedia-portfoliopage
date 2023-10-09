@@ -332,7 +332,7 @@ footer .column a:hover {
         grid-template-columns: repeat(1, 1fr);
     }
     .pricing .card{
-        min-width: 200px;    
+        min-width: 300px;    
     }
 
     footer{
