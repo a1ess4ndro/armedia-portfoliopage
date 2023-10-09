@@ -336,7 +336,7 @@ footer .column a:hover {
     }
 
     footer{
-        grid-template-columns: 1fr 150px;
+        grid-template-columns: 1fr 300px;
     }
 }
 
