@@ -322,11 +322,7 @@ footer .column a:hover {
 
 @media only screen and (max-width < 1350px){
 
-    .container{
-        padding: 10dvh 5dvw 10dvh 5dvw;
-        align-items: center;
-        justify-content: center;
-    }
+    
 
     .nav-links{
         display: none;
