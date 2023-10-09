@@ -319,7 +319,7 @@ footer .column a:hover {
   color: #0149e4;
 }
 
-@media only screen and (max-width: 1350px) {
+@media (width < 1350px) {
   header .image::before{
         display: none;
     }
