@@ -318,3 +318,23 @@ footer .column a {
 footer .column a:hover {
   color: #0149e4;
 }
+
+@media only screen and (max-width: 1350px) {
+  header .image::before{
+        display: none;
+    }
+
+    .features{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .pricing{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    footer{
+        grid-template-columns: 1fr 150px;
+    }
+  
+}
+
