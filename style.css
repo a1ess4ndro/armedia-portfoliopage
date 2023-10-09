@@ -158,6 +158,7 @@ section .header {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
+  justify-content: center;
 }
 .features .card {
   position: relative;
