@@ -321,28 +321,23 @@ footer .column a:hover {
 
 @media (width < 1350px){
 
-    nav{
-      gap: 0.5rem;
-    }
-  
-    header .image::before{
+    .nav-links{
         display: none;
     }
-
+    header{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    header .image{
+        grid-area: 1/1/2/2;
+    }
     .features{
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
-
     .pricing{
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
-    .pricing .card{
-        min-width: 300px;    
-    }
-
     footer{
-        grid-template-columns: repeat(1, 1fr);
-        grid-auto-flow: column;
+        grid-template-columns: 1fr 200px;
     }
 }
 
