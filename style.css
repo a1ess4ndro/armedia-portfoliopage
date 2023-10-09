@@ -320,6 +320,11 @@ footer .column a:hover {
 }
 
 @media (width < 1350px){
+
+    nav{
+      gap: 0.5rem;
+    }
+  
     header .image::before{
         display: none;
     }
