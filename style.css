@@ -319,8 +319,8 @@ footer .column a:hover {
   color: #0149e4;
 }
 
-@media (width < 1350px) {
-  header .image::before{
+@media (width < 1350px){
+    header .image::before{
         display: none;
     }
 
@@ -335,6 +335,5 @@ footer .column a:hover {
     footer{
         grid-template-columns: 1fr 150px;
     }
-  
 }
 
