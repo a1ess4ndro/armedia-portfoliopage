@@ -331,6 +331,10 @@ footer .column a:hover {
     header .image::before{
         display: none;
     }
+    header .btn{
+      justify-self: center;
+    }
+  
     .features{
         grid-template-columns: repeat(1, 1fr);
     }
